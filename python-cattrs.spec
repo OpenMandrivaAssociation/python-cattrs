@@ -1,7 +1,7 @@
 %define module cattrs
 
 Name:		python-cattrs
-Version:	25.3.0
+Version:	26.1.0
 Release:	1
 Summary:	Composable complex class support for attrs and dataclasses.
 License:	MIT
