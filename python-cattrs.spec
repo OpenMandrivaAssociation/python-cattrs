@@ -2,7 +2,7 @@
 
 Name:		python-cattrs
 Version:	26.1.0
-Release:	1
+Release:	2
 Summary:	Composable complex class support for attrs and dataclasses.
 License:	MIT
 Group:		Development/Python
@@ -17,6 +17,9 @@ BuildRequires:	python%{pyver}dist(wheel)
 
 %description
 Composable complex class support for attrs and dataclasses.
+
+%build -p
+export SETUPTOOLS_SCM_PRETEND_VERSION="%{version}"
 
 %files
 %{py_sitedir}/cattr
